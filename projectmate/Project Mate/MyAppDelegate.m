@@ -17,7 +17,8 @@
 	
 	MyLoginViewController *loginViewController = [[MyLoginViewController alloc] init];
 	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginViewController];
-	[nav setNavigationBarHidden:YES animated:NO];
+	//[nav setNavigationBarHidden:YES animated:NO];
+    [nav setNavigationBarHidden:NO animated:NO];
     [[self window] setRootViewController:nav];
 	
     self.window.backgroundColor = [UIColor whiteColor];

@@ -25,6 +25,8 @@
 		6FA2E0541747FC0200260EA6 /* MySignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA2E0521747FC0200260EA6 /* MySignUpViewController.m */; };
 		6FA2E0551747FC0200260EA6 /* MySignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA2E0531747FC0200260EA6 /* MySignUpViewController.xib */; };
 		6FA2E05717480D1800260EA6 /* projmate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA2E05617480D1800260EA6 /* projmate.storyboard */; };
+		FAE061CE17485C150012E777 /* MyTasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE061CD17485C150012E777 /* MyTasksTableViewController.m */; };
+		FAE061D117486D000012E777 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE061D017486D000012E777 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,10 @@
 		6FA2E0521747FC0200260EA6 /* MySignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySignUpViewController.m; sourceTree = "<group>"; };
 		6FA2E0531747FC0200260EA6 /* MySignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySignUpViewController.xib; sourceTree = "<group>"; };
 		6FA2E05617480D1800260EA6 /* projmate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = projmate.storyboard; sourceTree = "<group>"; };
+		FAE061CC17485C150012E777 /* MyTasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTasksTableViewController.h; sourceTree = "<group>"; };
+		FAE061CD17485C150012E777 /* MyTasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTasksTableViewController.m; sourceTree = "<group>"; };
+		FAE061CF17486D000012E777 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		FAE061D017486D000012E777 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,10 @@
 				6FA2E04D1747583700260EA6 /* Wallpaper_Purple.png */,
 				6FA2E01E1746BDB100260EA6 /* Supporting Files */,
 				6FA2E05617480D1800260EA6 /* projmate.storyboard */,
+				FAE061CC17485C150012E777 /* MyTasksTableViewController.h */,
+				FAE061CD17485C150012E777 /* MyTasksTableViewController.m */,
+				FAE061CF17486D000012E777 /* Task.h */,
+				FAE061D017486D000012E777 /* Task.m */,
 			);
 			path = "Project Mate";
 			sourceTree = "<group>";
@@ -209,6 +219,8 @@
 				6FA2E0361746BDF900260EA6 /* MyTabBarController.m in Sources */,
 				6FA2E03A1746BFCD00260EA6 /* MyLoginViewController.m in Sources */,
 				6FA2E0541747FC0200260EA6 /* MySignUpViewController.m in Sources */,
+				FAE061CE17485C150012E777 /* MyTasksTableViewController.m in Sources */,
+				FAE061D117486D000012E777 /* Task.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +335,7 @@
 				6FA2E0331746BDB100260EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
